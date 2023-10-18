@@ -1,0 +1,32 @@
+make sure to run 'npm i' or 'yarn' before scripts execution, in case of error while installing dependencies
+remove 'package-lock.json and yarn.lock' file if it exists and try npm i or yarn again
+
+to run deploy script
+npx hardhat run scripts/deploy.js --network ${networkName}
+
+to verify contracts 
+npx hardhat verify ${contractAddress} --network ${networkName} --constructor-args ${fileName}
+
+all the fileNames points to root directory of the project, make sure to use correct source path in commands.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  owner = new ethers.Wallet(process.env.PRIVATE_KEY);
+  console.log(owner.address)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

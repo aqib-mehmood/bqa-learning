@@ -1,0 +1,1 @@
+module.exports = ["0x8f877316573A19bd3ECA0faA64121e101Ef07592", "0xd466931052388c949c2536A3b1660C9dD5d75d78"] // parmas for LPStaker
